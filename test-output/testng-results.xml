@@ -1,32 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-27T22:08:53 BST" name="inetBankingv1" finished-at="2020-07-27T22:10:23 BST" duration-ms="90479">
+  <suite started-at="2020-08-10T03:06:05 BST" name="Default suite" finished-at="2020-08-10T03:06:14 BST" duration-ms="8841">
     <groups>
     </groups>
-    <test started-at="2020-07-27T22:08:53 BST" name="BankingApp Test" finished-at="2020-07-27T22:10:23 BST" duration-ms="90479">
-      <class name="com.inetBanking.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@7e0b85f9]" started-at="2020-07-27T22:08:54 BST" name="setup" finished-at="2020-07-27T22:09:19 BST" duration-ms="25358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2020-08-10T03:06:05 BST" name="Default test" finished-at="2020-08-10T03:06:14 BST" duration-ms="8841">
+      <class name="com.inetBanking.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:05 BST" name="setup" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1597025165337" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@7e0b85f9]" started-at="2020-07-27T22:09:19 BST" name="addNewCustomer" finished-at="2020-07-27T22:10:22 BST" duration-ms="62816" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:13 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:13 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@7e0b85f9]" started-at="2020-07-27T22:10:22 BST" name="tearDown" finished-at="2020-07-27T22:10:23 BST" duration-ms="802" status="PASS">
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="LoginDDT" data-provider="LoginData" finished-at="2020-08-10T03:06:14 BST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\user1\AppData\Local\Temp\testng-eclipse-1093416233\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@50a638b5]" started-at="2020-08-10T03:06:14 BST" name="tearDown" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1597025174098" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.inetBanking.testCases.TC_AddCustomerTest_003 -->
-    </test> <!-- BankingApp Test -->
-  </suite> <!-- inetBankingv1 -->
+      </class> <!-- com.inetBanking.testCases.TC_LoginDDT_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
